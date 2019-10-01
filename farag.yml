@@ -1,0 +1,6 @@
+---
+- name: ansible_cf
+  hosts: all
+  tasks:
+    - name: create file
+      shell: echo hello farag > /tmp/farag
